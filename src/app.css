@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Page {
+    background-color: white;
+}
+
+TextField {
+    padding: 12;
+    margin-bottom: 16;
+    placeholder-color: #999;
+}
+
+Button {
+    padding: 12;
+    margin-bottom: 16;
+    border-radius: 8;
+}
+
+.primary-button {
+    background-color: #1a237e;
+    color: white;
+}
+
+.google-button {
+    background-color: #f5f5f5;
+    color: #333;
+}
